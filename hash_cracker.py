@@ -30,7 +30,7 @@ class Control( object ):
         """
            The 3 attributes below are set to None for the purpose
            of looping should the user accidentally enter incorrect
-           information
+           information, or if there is no match found.
         """
         self.decrypt_method = None
         self.decrypted_hash = None
